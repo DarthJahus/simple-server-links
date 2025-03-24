@@ -1,21 +1,16 @@
-package dev.igalaxy.simpleserverlinks;
+package mom.wii.simpleserverlinks;
 
-import com.mojang.datafixers.util.Either;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.networking.v1.ServerConfigurationConnectionEvents;
 import net.fabricmc.loader.api.FabricLoader;
 import net.minecraft.network.packet.s2c.common.ServerLinksS2CPacket;
-import net.minecraft.network.packet.s2c.play.ServerMetadataS2CPacket;
 import net.minecraft.server.ServerLinks;
 import net.minecraft.text.Text;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.net.URI;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 
 public class SimpleServerLinksMod implements ModInitializer {
 	// This logger is used to write text to the console and the log file.

@@ -1,4 +1,4 @@
-package dev.igalaxy.simpleserverlinks;
+package mom.wii.simpleserverlinks;
 
 import folk.sisby.kaleido.api.ReflectiveConfig;
 import folk.sisby.kaleido.lib.quiltconfig.api.annotations.Comment;
